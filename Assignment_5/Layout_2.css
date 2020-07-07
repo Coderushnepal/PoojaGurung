@@ -1,0 +1,136 @@
+@media screen and (min-width: 992px) {
+    
+    .section {
+        max-width: 1140px;
+        width: 100%;
+        padding: 0 20px;
+        margin: 0 auto; 
+    }    
+    
+    .header_nav {
+        position: absolute;
+        right: 180px;
+        top: 24px;
+    }
+
+    .header_nav img {
+        display: none;
+    }
+
+    .header_nav ul {
+        display: inline;
+       
+    }
+
+    .header_nav ul li {
+        display: inline-block;
+        list-style: none;
+        padding: 8px 15px;
+        
+    } 
+
+    .header_nav ul a {
+        color: #000;
+        text-decoration: none;
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+    
+    .header_btn {
+        position: absolute;
+        right: 40px;
+        top: 24px;
+    }
+    .header_btn  .btn { 
+        display: block;       
+        padding: 10px 40px;
+        background: linear-gradient(90deg, #3AE4DF 0%, #7A88FF 104.29%);
+        border-radius: 5px;        
+        font-weight: normal;
+        cursor: pointer;
+        color: #000;
+        border: none;
+    }
+
+    .main_section {
+        padding: 45px 0;
+    }
+
+    h1 {
+        font-size: 56px;
+        line-height: 56px;
+    }
+
+    p {
+        font-size: 18px;
+        margin: 25px 0 60px;
+        line-height: 140.62%;
+    }
+
+    .btn-primary {
+        font-size: 18px;
+        padding: 19px 56px;
+    }
+
+    .Mobile_View, .Tablet_View {
+        display: none;
+    }   
+        
+    .Desktop_View {
+        display: block;
+    }
+
+    .info-section {
+        display: none;
+    }    
+
+    .info-section-tab-desk {
+        display: block;             
+    }
+    
+
+    .info-section-tab-desk .media_img {
+        display: none;
+    }
+    
+    .info-section-tab-desk .media_desk {
+        display: block;
+        float: left;
+        padding-right: 136px;
+        padding-top: 0;
+    }
+        
+    h2 {
+        font-size: 32px;
+        line-height: 42px;
+        color: #000000;
+        margin-top: 110px;
+        padding-top: 54px;
+    }
+        
+    .info-section-tab-desk .media_para {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 25px;
+        color: #000000;
+        margin: 26px 0 0 0;
+    }
+    
+    .info-section-tab-desk p {
+        font-size: 12px;
+        line-height: 20px;
+        color: rgba(0, 0, 0, 0.5);
+        margin: 13px 0 0 0;
+        text-align: justify;
+    }
+    
+    .info-section-tab-desk a {
+        font-size: 16px;
+        line-height: 140.62%;
+        text-decoration-line: underline;
+        color: #798BFE;
+        margin-top: 26px;
+    }
+    
+}    
