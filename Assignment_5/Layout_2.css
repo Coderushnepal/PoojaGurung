@@ -3,45 +3,52 @@
     .section {
         max-width: 1140px;
         width: 100%;
-        padding: 0 20px;
+        padding: 0 60px;
         margin: 0 auto; 
-    }    
+    }   
     
-    .header_nav {
-        position: absolute;
-        right: 180px;
-        top: 24px;
+    body {
+        font-family: 'Roboto';
+        font-size: 22px;
     }
 
-    .header_nav img {
+    .header_logo img{
+        width: 73px;
+        height: 32px;
+        margin-top: 35px;
+    }
+    
+    .hamburger_menu {
         display: none;
     }
 
-    .header_nav ul {
-        display: inline;
-       
+    .header {
+        width: 100%;
+        height: 100px;    
     }
 
-    .header_nav ul li {
+    .header_nav {
+        margin-top: 24px;
+    }
+    
+    .navigation {
+        display: inline;              
+    }
+
+    .navigation  li {
         display: inline-block;
         list-style: none;
-        padding: 8px 15px;
-        
+        padding: 8px 10px;        
     } 
 
-    .header_nav ul a {
+    .navigation  a {
         color: #000;
         text-decoration: none;
         font-size: 13px;
         text-transform: uppercase;
-    }
+    }    
     
-    .header_btn {
-        position: absolute;
-        right: 40px;
-        top: 24px;
-    }
-    .header_btn  .btn { 
+    .btn { 
         display: block;       
         padding: 10px 40px;
         background: linear-gradient(90deg, #3AE4DF 0%, #7A88FF 104.29%);
@@ -50,6 +57,10 @@
         cursor: pointer;
         color: #000;
         border: none;
+        margin-top: 5px;
+        margin-bottom: 7px;
+        margin-left: 30px;
+        
     }
 
     .main_section {
@@ -132,5 +143,148 @@
         color: #798BFE;
         margin-top: 26px;
     }
+
+    .training-section-1 h3 {
+        font-size: 32px;
+        line-height: 42px;
+        color: #000000;
+    }
     
+    .training-section-1 p {
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+        margin: 24px 0 0 0;
+        text-align: left;
+        
+    }
+
+    .training-section-1 .training-span {    
+        font-size: 14px;
+        line-height: 20px;
+        
+    }       
+       
+    .training-section-1 .btn-secondary {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 16px 36px;
+        background: #798BFE;
+        border-radius: 5px;
+        border: 0;
+        margin-top: 24px;
+    }          
+   
+    .training-section-2 h3 {
+        font-size: 32px;
+        line-height: 42px;
+        color: #000000;
+    }
+    
+    .training-section-2 p {
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+        margin: 24px 0 0 0;
+        text-align: left;
+    }
+
+    .training-section-2 .training-span {    
+        font-size: 14px;
+        line-height: 20px;
+        
+    }       
+       
+    .training-section-2 .btn-secondary {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 16px 36px;
+        background: #798BFE;
+        border-radius: 5px;
+        border: 0;
+        margin-top: 24px;
+    }   
+    
+    .training-section {
+        width: 100%;
+    }
+    .training-section-1 {
+        width: 48%;
+        float: left;
+    }
+    .training-section-2 {
+        width: 48%;
+        float: right;
+    }    
+    
+    .footer-div-1-col-6 {
+        display: none;
+    }
+
+    .footer-div-2-col-1 {
+        display: block;
+    }
+
+    .footer-div-1 hr {
+        display: none;
+    }
+
+    .footer-div-2 hr {
+        display: block;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .footer-div-1-col-1, .footer-div-1-col-2,
+    .footer-div-1-col-3, .footer-div-1-col-4,
+    .footer-div-1-col-5 {
+        width: 20%;
+        margin-top: 40px;
+        float: left;
+    }
+    
+    .footer-div-1-link {
+        display: block;
+    }
+
+    .footer-div-1-link ul {
+        padding-left: 0;
+        list-style: none; 
+        margin-top: 16px;
+    }
+    
+    .footer-div-1-link  ul li {
+        display:block;
+    } 
+    
+    .footer-div-1-link a {    
+        text-decoration: none; 
+        font-size: 14px;
+        line-height: 24px;   
+    }
+
+    .footer-div-2-col-1 {
+        display: none;
+    }
+
+    .footer-div-2-col-3 ul{
+        display: inline;
+    }
+    
+    .footer-div-2-col-3 ul li {
+        display: inline-block;
+        list-style: none;
+        padding: 14px 9px 12px 0;    
+    } 
+    
+    .footer-div-2-col-3 ul a {    
+        text-decoration: none;    
+    }
+  
 }    
