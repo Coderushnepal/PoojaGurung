@@ -8,8 +8,8 @@
     }   
     
     body {
-        font-family: 'Roboto';
-        font-size: 22px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
     }
 
     .header_logo img{
@@ -153,16 +153,17 @@
     .training-section-1 p {
         font-size: 14px;
         line-height: 20px;
-        color: #000000;
+        /* color: #000000; */
         margin: 24px 0 0 0;
         text-align: left;
-        
+        font-style: normal;
+        font-weight: normal;
     }
 
     .training-section-1 .training-span {    
         font-size: 14px;
         line-height: 20px;
-        
+        font-weight: normal;
     }       
        
     .training-section-1 .btn-secondary {
@@ -189,12 +190,14 @@
         color: #000000;
         margin: 24px 0 0 0;
         text-align: left;
+        font-style: normal;
+        font-weight: normal;
     }
 
     .training-section-2 .training-span {    
         font-size: 14px;
         line-height: 20px;
-        
+        font-weight: normal;
     }       
        
     .training-section-2 .btn-secondary {
@@ -273,8 +276,13 @@
         display: none;
     }
 
+    .footer-div-2-col-3 {
+        display: block;
+     }
+
     .footer-div-2-col-3 ul{
         display: inline;
+
     }
     
     .footer-div-2-col-3 ul li {
@@ -285,6 +293,6 @@
     
     .footer-div-2-col-3 ul a {    
         text-decoration: none;    
-    }
+    }   
   
 }    
