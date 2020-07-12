@@ -1,0 +1,42 @@
+@media screen and (min-width: 992px) {
+    @font-face {
+        font-family: CircularStd;
+        src: url("fonts/Circular Std Black.ttf");
+    }
+    .wrapper-container {
+        width:100%;
+        margin: 10px auto;
+        padding: 0 20px;
+        display: block;
+        max-width: 1140px;
+    }
+    .header-hamburger-menu {
+        display: none;
+    }
+    .header-logo {     
+        width: 30%;       
+    }
+    .header-logo img {
+        display: block;       
+        max-width: 100%;
+        height: 78px;
+        float: left;
+    }
+    hr {
+        display: none;
+    }
+    .menu-dropdown {
+        width:70%;
+        display: block;
+        margin-top: 39px;      
+    }
+    .nav-dropdown-content {
+        margin-left:40px;        
+    }
+    .wrapper-home {
+        background-image: url("./screen.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}

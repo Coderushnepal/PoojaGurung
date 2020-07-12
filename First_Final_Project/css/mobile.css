@@ -1,0 +1,135 @@
+@font-face {
+    font-family: CircularStd;
+    src: url("fonts/Circular Std Black.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: CircularStd;  
+    font-size: 16px; 
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.wrapper-header {
+    position: relative;
+    width: 100%;
+    display: block;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.22) 7.62%, 
+              rgba(0, 225, 198, 0.06) 25.5%, #FFFFFF 70.92%);
+              height: 100vh;
+              width:100%;
+
+}
+.wrapper-container {
+    width:100%;
+    margin: 10px auto;
+    padding: 0 20px;
+    display: block;
+}
+.header-logo {
+    width: 30%;
+    float: left;
+}
+.header-logo img {
+    max-width: 190px;
+    height: 40px;
+    margin: 10px 0;    
+}
+
+.menu-dropdown {
+    /* position: relative; */
+    width: 70%;
+    display: block;
+  }
+.header-hamburger-menu {        
+    margin-top: 18px;
+    
+}
+.header-hamburger-menu div {
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    margin: 4px 0;
+}
+  
+.nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: azure;    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 42px;
+    left: 0;
+    right: 0;
+}
+
+.nav-dropdown-content li {
+    list-style: none;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    display: block;
+    margin: 10px 0;        
+}
+
+.nav-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    /* transition: .6s; */
+}
+
+.nav-dropdown-content .btn {
+    border: 1px solid #00B6F0;
+    border-radius: 20px;
+    font-style: normal;    
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: black;
+    cursor: pointer;    
+    padding: 5px 28px;   
+    text-align: center;
+    margin: 10px 30px 10px 0;  
+}
+.menu-btn-right {
+    display: none;
+}
+hr {
+    display: none;
+}
+.nav-dropdown-content .btn:hover {background-color:  #00B6F0; color: azure;} 
+.nav-dropdown-content  a:hover {background-color:  #00B6F0; color: azure;}  
+.menu-dropdown:hover .nav-dropdown-content {display: block;}  
+.menu-dropdown:hover .header-hamburger-menu {opacity: 0.6;}
+
+/* .wrapper-home {
+    background-image: url("./screen.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+} */
+
+
+
+
+
+
+
+
