@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 style="font-size: 100px;">Question 1 :</h1>
+    <p style="font-size: 80px;">Answer 1</p>
+    <script>
+
+        console.log("Answer 1:")
+        var n = window.prompt("Enter no of asterisks u want to endered on the first row. : ");
+        alert("Your Pattern is shown in console :");
+        
+        
+        asterisks(n);
+
+        function  asterisks(n)
+        {
+            for (var i = 1; i <= n ; i++)
+            {
+                for (var j = n; j >= i; j--)
+                {
+                    console.log("*");
+                }
+                    console.log("\n");
+            }
+        }
+
+        console.log("......................................................................")
+        console.log("Answer 5:")
+
+
+        // var obj = { 
+        //     a: "Apple",
+        //     b: "Microsoft", 
+        //     c: "Google" 
+        //     }   
+
+        // console.log(Object.keys(obj));
+        // console.log(Object.values(obj));
+    </script>
+</body>
+</html>
