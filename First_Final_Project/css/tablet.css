@@ -1,7 +1,7 @@
 @media screen and (min-width: 600px) {
     @font-face {
         font-family: CircularStd;
-        src: url("fonts/Circular Std Black.ttf");
+        src: url("fonts/Circular_Std_Black.ttf");
     }
     body {
         font-family: CircularStd;  
@@ -91,7 +91,83 @@
         background-color: unset;
         color: #00B6F0;
     }
+    
 
+    .wrapper img {
+        height: 600px;
+        position: absolute;
+    }
+    .wrapper-home-content {
+        width: 100%;
+        margin: 100px auto;
+        padding: 0 40px;
+        
+    }
+    .wrapper-home-content h1 {
+        font-family: CircularStd;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.7px;
+        color: #112D57;
+        margin: 40px auto;
+    }
+    .wrapper-home-content p {
+        font-family: CircularStd;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 19px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.7px;
+        color: #5C5C5C;
+        margin: 20px auto;
+        padding: 10px 60px;
+    }
+    .home-btn {
+       height: 50px;
+       position: relative;
+       border: 3px solid green; 
+       width: 100%;
+       /* margin-left: auto;
+       margin-right: auto; */
+    }
+    .home-btn-wrapper {
+        
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .home-btn .btn-left {
+        font-family: CircularStd;
+        background: #00B6F0;
+    color: white;
+    border-radius: 40px;    
+    border: 0;
+    padding: 10px 20px;
+    margin: 0;
+    font-size: 16px;
+    }
+
+    .home-btn .btn-right {
+        font-family: CircularStd;
+    background: white;
+    color: black;
+    border-radius: 40px;    
+    border: 0;
+    padding: 10px 20px;
+    margin-left: 20px;      
+    font-size: 16px;
+
+    }
+    
+    
     
     
     
