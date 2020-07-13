@@ -10,38 +10,24 @@
     <h1 style="font-size: 100px;">Question 1 :</h1>
     <p style="font-size: 80px;">Answer 1</p>
     <script>
-
-        console.log("Answer 1:")
-        var n = window.prompt("Enter no of asterisks u want to endered on the first row. : ");
-        alert("Your Pattern is shown in console :");
         
         
-        asterisks(n);
-
+        console.log("Answer 1:")        
+        console.log("........................................................................") 
         function  asterisks(n)
         {
-            for (var i = 1; i <= n ; i++)
-            {
-                for (var j = n; j >= i; j--)
-                {
-                    console.log("*");
-                }
-                    console.log("\n");
-            }
+            let string = "* ";          
+            for (var j = n; j >= 1; j--)
+              {             
+                  console.log(string.repeat(j));
+              }             
         }
-
-        console.log("......................................................................")
-        console.log("Answer 5:")
+        asterisks(5)
 
 
-        // var obj = { 
-        //     a: "Apple",
-        //     b: "Microsoft", 
-        //     c: "Google" 
-        //     }   
-
-        // console.log(Object.keys(obj));
-        // console.log(Object.values(obj));
+        console.log("Answer 2:")        
+        console.log("........................................................................") 
+        
     </script>
 </body>
 </html>
