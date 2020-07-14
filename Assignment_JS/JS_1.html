@@ -62,32 +62,24 @@
 
     console.log("Answer 4:")        
     console.log("........................................................................") 
-    function filterString(string)
-        {
-            var S = string;
-            var P = [];
-            var x = S.length;
-            for (var i = 0; i < x; i++)
-            {
-                var y = S[i];
-                var z = y.length;
-                if( y[i] == y[i+1])
-                {
-                  P.push(S[i]);                  
-                }
-                else{
-                    P.pop();
-                }               
-            }
-          console.log(P); 
-        }
-
-        filterString([ '88', '133', '44'])
-
-
-
-
-
+    
+    function filterString(string) 
+    {
+            const items = string;
+            const copy = [];
+            items.forEach(function(item) {
+                var set3 = new Set(item)
+                //copy.push(set3);
+                
+                    if (set3.size === 1)
+                    {
+                        copy.push(item);
+                    }
+                
+                console.log(copy);                
+               });
+    }
+               filterString([ '88', '3311', '44'])
 
 
 
