@@ -1,4 +1,4 @@
-function showPassword() {
+function showHidePassword() {
     var inputPass = document.getElementById('password-area');
     var statusPass = document.getElementById('eyeicon');
     if(inputPass.type == 'password')
