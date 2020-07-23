@@ -2,8 +2,6 @@ function Ball()
 {
     var that = this;
     this.isDeleted = false;
-    
-
 
     this.ball = document.createElement("div");
     this.ball.style.borderRadius = "50%";
@@ -67,16 +65,16 @@ function Ball()
     }
     
     
-    this.removeBall = function() {            
-        // setInterval(function() {
-            //    // var bounce = this.ball.;
-            //     balls.forEach(function(ball) {
-                    if (that.ball.getXY().x > window.innerHeight - that.ball.getWW().W) {
-                       that.ball.remove();                       
-                   }
-            //     // });
-            // }, 1000 / 60);
-        };
+    // this.removeBall = function() {            
+    //     // setInterval(function() {
+    //         //    // var bounce = this.ball.;
+    //         //     balls.forEach(function(ball) {
+    //                 if (that.ball.getXY().x > window.innerHeight - that.ball.getWW().W) {
+    //                    that.ball.remove();                       
+    //                }
+    //         //     // });
+    //         // }, 1000 / 60);
+    //     };
        
         
 }
@@ -106,8 +104,7 @@ for (var i = 1; i <= 200; i++) {
         }) (),
         timeout
     );
-
     
-   ball.removeBall();
+//    ball.removeBall();
 }
 
