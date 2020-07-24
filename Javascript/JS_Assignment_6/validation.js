@@ -29,7 +29,7 @@ function setErrorFor(input) {
 	const user = input.parentElement;
     const small = box1.querySelector('small');
     small.style.visibility = "visible";
-    user.style.borderColor = "red";
+    small.style.color = "red";
 	
 }
 

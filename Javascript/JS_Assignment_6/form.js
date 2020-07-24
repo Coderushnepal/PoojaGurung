@@ -30,16 +30,18 @@
     //Create Text Username
     var user = document.createElement("INPUT");
     user.style.margin = "0 20px 0 20px";
-    //userName.style.borderColor = "red";
     user.setAttribute("id", "userName");
     user.setAttribute("type", "text");
     user.setAttribute("placeholder", "Enter Username");
     box.appendChild(user);
 
+    var newElem = document.createElement("BR");
+    box.appendChild(newElem);
+
     //Error Msg 
     
     var paraUN = document.createElement("SMALL");
-    paraUN.style.visibility = "hidden"; 
+    //paraUN.style.visibility = "hidden"; 
     paraUN.style.margin = "0 0 0 20px"; 
     
     var txtParaUN = document.createTextNode("Username must be at least 3 characters"); 
@@ -49,6 +51,20 @@
 
     var newElem = document.createElement("BR");
     box.appendChild(newElem); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     //Create Email Label............................................................................
     var Emaillabel = document.createElement("LABEL");
@@ -67,9 +83,11 @@
     EmailIN.setAttribute("placeholder", "Enter Email");
     box.appendChild(EmailIN);
 
+
+
     //Email Error message
     var paraEmail = document.createElement("SMALL"); 
-    paraEmail.style.visibility = "hidden"; 
+   // paraEmail.style.visibility = "hidden"; 
     paraEmail.style.margin = "0 0 0 20px";   
     var txtEmail = document.createTextNode("Email is not valid");  
     paraEmail.appendChild(txtEmail);
@@ -97,7 +115,7 @@
 
     //Password Error message
     var para = document.createElement("SMALL"); 
-    para.style.visibility = "hidden";
+    //para.style.visibility = "hidden";
     para.style.margin = "0 0 0 20px";   
     var txtPara = document.createTextNode("Password must be at least 6 characters");  
     para.appendChild(txtPara);
@@ -125,7 +143,7 @@
 
     //Password2 Error Msg
     var paraPass2 = document.createElement("SMALL"); 
-    paraPass2.style.visibility = "hidden";
+   // paraPass2.style.visibility = "hidden";
     paraPass2.style.margin = "0 0 0 20px";   
     var txtParaPass2 = document.createTextNode("Password is required");  
     paraPass2.appendChild(txtParaPass2);
