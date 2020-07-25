@@ -42,6 +42,7 @@
 
     //Username Error Msg     
     var paraUN = document.createElement("SMALL");
+    paraUN.setAttribute("id", "errorUser");
     paraUN.style.visibility = "hidden"; 
     paraUN.style.padding = "0 0 0 20px";    
     var txtParaUN = document.createTextNode("Username must be at least 3 characters");      
@@ -68,7 +69,7 @@
     EmailIN.style.margin = "0 20px 0 20px";
     EmailIN.style.padding = "5px 5px 5px 5px"; 
     EmailIN.style.width = "80%";
-    EmailIN.setAttribute("id", "e-mail");
+    EmailIN.setAttribute("id", "email");
     EmailIN.setAttribute("type", "email");
     EmailIN.setAttribute("placeholder", "Enter Email");
     box.appendChild(EmailIN);
@@ -78,7 +79,8 @@
 
 
     //Email Error message
-    var paraEmail = document.createElement("SMALL");  
+    var paraEmail = document.createElement("SMALL"); 
+    paraEmail.setAttribute("id", "errorEmail"); 
     paraEmail.style.visibility = "hidden"; 
     paraEmail.style.margin = "0 0 0 20px";   
     var txtEmail = document.createTextNode("Email is not valid");  
@@ -114,6 +116,7 @@
 
     //Password Error message
     var para = document.createElement("SMALL");
+    para.setAttribute("id", "errorPass"); 
     para.style.visibility = "hidden";
     para.style.margin = "0 0 0 20px";   
     var txtPara = document.createTextNode("Password must be at least 6 characters");  
@@ -147,10 +150,11 @@
     box.appendChild(newElem);
 
     //Password2 Error Msg
-    var paraPass2 = document.createElement("SMALL");    
+    var paraPass2 = document.createElement("SMALL"); 
+    paraPass2.setAttribute("id", "errorPass2");    
     paraPass2.style.visibility = "hidden";
     paraPass2.style.margin = "0 0 0 20px";   
-    var txtParaPass2 = document.createTextNode("Password is required");  
+    var txtParaPass2 = document.createTextNode("Password did not match");  
     paraPass2.appendChild(txtParaPass2);
     box.appendChild(paraPass2); 
 
