@@ -25,13 +25,20 @@ body {
   stroke-linecap: round;
  /* visibility: hidden;*/
 }
+
 .figure-part {
   visibility: hidden;
 }
 
-.box2 span {
-  border-bottom: 3px solid white;
-  margin-left: 2px;
-  height: 10px;
-  width: 20px;
+.box-letter {
+  border-bottom: 5px solid white;
+  margin-left: 5px;  
+  width: 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+.wrongLetter {
+  float: right;
+  
 }
