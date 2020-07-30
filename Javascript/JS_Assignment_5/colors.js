@@ -1,0 +1,1 @@
+var colors = ["red","violet","green","blue","yellow","pink","indigo"]; 
