@@ -47,8 +47,7 @@ document.addEventListener("keypress", function(e) {
        wrong2.appendChild(wrongPara); 
         console.log(wrongLetter)   
        figures();  
-    }  
-         
+    }          
 })
 
 console.log(wrongLetter) 
