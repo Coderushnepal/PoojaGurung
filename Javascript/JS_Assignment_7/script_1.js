@@ -57,13 +57,13 @@ console.log(wrongLetter)
 
 
 
-// var displayFigures = document.getElementsByClassName("figure-part");
-// var n = 0;
-// function figures() {  
-//     displayFigures[n].style.visibility = "visible";
-//     n++;
-// }
+var displayFigures = document.getElementsByClassName("figure-part");
+var n = 0;
+function figures() {  
+    displayFigures[n].style.visibility = "visible";
+    n++;
+}
 
-// function gameFail(){
+function gameFail(){
 
-// }
+}
