@@ -40,6 +40,7 @@ document.addEventListener("keypress", function(e) {
     {
         guessed.style.display = "none";
         displayGuessRightWrong(letterGuess);
+        
     }         
 })
 
@@ -56,7 +57,7 @@ function displayGuessRightWrong(letter, val) {
             } 
             gameSuccess();           
         }  
-                         
+                     
     } 
     else
     {        
@@ -94,10 +95,12 @@ function myfunc() {
 }
 
 
-      
+var givenWord = new Set(Array.from(nameWords));
+
 function gameSuccess(){   
-    if(Array.from(matchLetter).length === nameWords.length)
+    if(Array.from(matchLetter).length === Array.from(givenWord).length)
     {      
+        //alert("hello")
        showGameSuccessDiv.style.display = "block";       
     }
 }
