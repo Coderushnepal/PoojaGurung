@@ -25,63 +25,25 @@ function generateBounce() {
 
     bounce.style.top = Math.random() * (height - 30) + "px";
     bounce.style.left = Math.random() * (width - 30) + "px";
-
-    // console.log(bounce); 
-
-    // bounce.addEventListener('click', function () {
-
-
         setTimeout(function() {
-
-
             setInterval(
                 (function() {
-                    var direction = 1;
-                    
-                // var ball = bounce;
-                return  function () {
-                    var newBounceTopValue = bounce.style.top;
-                    var nextTopValue = parseInt(newBounceTopValue) + 10 * direction; 
-                    bounce.style.top = nextTopValue + "px";
-                    if ((nextTopValue >= (height-30)) || (nextTopValue <=0))
-                    {
-                        direction *= -1; 
-                    }
-                };
+                    var direction = 1;                   
+                
+                    return  function () {
+                        var newBounceTopValue = bounce.style.top;
+                        var nextTopValue = parseInt(newBounceTopValue) + 10 * direction; 
+                        bounce.style.top = nextTopValue + "px";
+                        if ((nextTopValue >= (height-30)) || (nextTopValue <=0))
+                        {
+                            direction *= -1; 
+                        }
+                    };
     
-        }) (), 
-        1000 / 60 
-        );
-
-
-
-
-
-
-        }, 3000);
-        
-        
-
-    i++
-   
-
-
-
+                }) (), 
+            1000 / 60 
+            );
+        }, 3000)
+    i++;
 }
-// });
-
-    // bounce.addEventListener('click', function () {
-    //     var direction = 1;
-
-    //     setInterval(function () {
-    //         var newBounceTopValue = bounce.style.top;
-    //         var nextTopValue = parseInt(newBounceTopValue) + 10 * direction; 
-    //         bounce.style.top = nextTopValue + "px";
-    //         if ((nextTopValue >= (height-30)) || (nextTopValue <=0))
-    //         {
-    //             direction *= -1; 
-    //         }
-    //     }, 1000 / 60);
-    
-    // });
 
