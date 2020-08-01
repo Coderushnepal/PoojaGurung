@@ -52,11 +52,11 @@ function displayGuessRightWrong(letter, val) {
             if(nameWords[n] === letter)
             {                
                 word[n].innerText = letter;                   
-                matchLetter.add(word[n].innerText);  
-                gameSuccess();              
+                matchLetter.add(word[n].innerText);                               
             } 
-                      
-        }                     
+            gameSuccess();           
+        }  
+                         
     } 
     else
     {        
@@ -81,10 +81,9 @@ function figures() {
 function gameFail(){   
     if(Array.from(wrongLetter).length === displayFigures.length)
     {
-       //alert("Hello")
-       //document.body.disabled = true;       
+            
        showGameFailDiv.style.display = "block"; 
-       //box2.setAttribute("disabled","true");     
+           
     }
 }
 
