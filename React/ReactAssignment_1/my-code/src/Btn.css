@@ -1,0 +1,20 @@
+.btn {
+    padding: 5px 30px;
+    font-size: medium;
+    margin-left: 10px;
+    background-color: aqua;
+}
+
+.box {
+    border: 1px solid yellowgreen;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
