@@ -1,0 +1,272 @@
+export const dummyMoviesData = [
+    {
+        "id": 1,
+        "Title": "Kabaddi",
+        "Year": "2014",
+        "Rated": "N/A",
+        "Released": "25 Apr 2014",
+        "Runtime": "123 min",
+        "Genre": "Comedy, Drama, Romance",
+        "Director": "Ram Babu Gurung",
+        "Writer": "Ram Babu Gurung",
+        "Actors": "Dayahang Rai, Nischal Basnet, Rishma Gurung, Buddhi Tamang",
+        "Plot": "Kazi a young aimless man dreams of marrying Maiya, a village girl by any means although she wants to go to the city for higher education. Their lives are thrown into turmoil with the arrival of Bibek, a charming young man from the city.",
+        "Language": "Nepali",
+        "Country": "Nepal",
+        "Awards": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOGE2ZjczZjEtNmUzYi00NTY4LWIwMGQtNDY5ZWM4YmI2YzQ3XkEyXkFqcGdeQXVyNTEwOTEzNDk@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "8.4/10"
+          }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.4",
+        "imdbVotes": "302",
+        "imdbID": "tt3696800",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+        "id": 2,
+        "Title": "Loot",
+        "Year": "2012",
+        "Rated": "N/A",
+        "Released": "13 Jan 2012",
+        "Runtime": "138 min",
+        "Genre": "Crime, Drama, Thriller",
+        "Director": "Nischal Basnet",
+        "Writer": "Nischal Basnet, Saugat Malla (dialogue), Dayahang Rai (dialogue)",
+        "Actors": "Saugat Malla, Karma Shakya, Dayahang Rai, Prateek Raj Neupane",
+        "Plot": "A man with a 'master plan' to rob a bank searches and leads four frustrated men in their quest for quick money.",
+        "Language": "Nepali",
+        "Country": "Nepal",
+        "Awards": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOTgwYjJjYWItNTY5Yi00YzVmLWJkM2MtNjVmNmYzZDQ0YTMyXkEyXkFqcGdeQXVyNTEwOTEzNDk@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "8.0/10"
+          }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "8.0",
+        "imdbVotes": "739",
+        "imdbID": "tt2179133",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+    },
+    {
+      "id": 3,
+      "Title": "Uma",
+      "Year": "2018",
+      "Rated": "Not Rated",
+      "Released": "01 Jun 2018",
+      "Runtime": "149 min",
+      "Genre": "Drama",
+      "Director": "Srijit Mukherji",
+      "Writer": "Srijit Mukherji (story, screenplay and dialogue)",
+      "Actors": "Jishu Sengupta, Sayantika Banerjee, Sara Sengupta, Anirban Bhattacharya",
+      "Plot": "The plot is based on true event surrounding the life and death of Evan Leversage, who lived in St George in Ontario, Canada.",
+      "Language": "Bengali",
+      "Country": "India",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BM2I3M2I0YTItMjgyZC00NWVlLWEwY2ItNGYyZmQxYjQxMzVhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.3/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.3",
+      "imdbVotes": "889",
+      "imdbID": "tt8033428",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 4,
+      "Title": "Jatra",
+      "Year": "2016",
+      "Rated": "N/A",
+      "Released": "11 Nov 2016",
+      "Runtime": "150 min",
+      "Genre": "Comedy, Drama",
+      "Director": "Pradeep Bhattarai",
+      "Writer": "Pradeep Bhattarai",
+      "Actors": "Rabindra Singh Baniya, Rabindra Jha, Bipin Karki, Kamalmani Nepal",
+      "Plot": "N/A",
+      "Language": "Nepali",
+      "Country": "Nepal",
+      "Awards": "N/A",
+      "Poster": "N/A",
+      "Ratings": [
+        
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "N/A",
+      "imdbVotes": "N/A",
+      "imdbID": "tt6249904",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 5,
+      "Title": "Talakjung vs Tulke",
+      "Year": "2014",
+      "Rated": "N/A",
+      "Released": "04 Sep 2015",
+      "Runtime": "90 min",
+      "Genre": "Drama",
+      "Director": "Nischal Basnet",
+      "Writer": "Khagendra Lamichhane",
+      "Actors": "N/A",
+      "Plot": "Tulké is a day-laborer in a Nepalese mountain village. He struggles to reclaim his lost aristocratic identity, while a violent revolution disrupts every aspect of village life.",
+      "Language": "Nepali",
+      "Country": "Nepal",
+      "Awards": "N/A",
+      "Poster": "N/A",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.0/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "8.0",
+      "imdbVotes": "136",
+      "imdbID": "tt3342558",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 6,
+      "Title": "Ghampani",
+      "Year": "2017",
+      "Rated": "N/A",
+      "Released": "14 Apr 2017",
+      "Runtime": "N/A",
+      "Genre": "Drama, Romance",
+      "Director": "Dipendra Lama",
+      "Writer": "Dipendra Lama",
+      "Actors": "Dayahang Rai, Keki Adhikari, Prakash Ghimire, Buddhi Tamang",
+      "Plot": "Tara and Furba from different caste start to fall in love, to succeed their marriage they have to run away from their family.",
+      "Language": "Nepali",
+      "Country": "Nepal",
+      "Awards": "N/A",
+      "Poster": "https://ia.media-imdb.com/images/M/MV5BY2I3ZTRlOGYtNjQ0Yi00YTk2LWJhYWItOGFiYmQxZWIzZjc4XkEyXkFqcGdeQXVyNTEwOTEzNDk@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.1/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "8.1",
+      "imdbVotes": "21",
+      "imdbID": "tt6759476",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "id": 7,
+      "Title": "White Sun",
+      "Year": "2016",
+      "Rated": "TV-PG",
+      "Released": "09 Dec 2016",
+      "Runtime": "89 min",
+      "Genre": "Adventure, Drama",
+      "Director": "Deepak Rauniyar",
+      "Writer": "Deepak Rauniyar, David Barker",
+      "Actors": "Dayahang Rai, Asha Magrati, Rabindra Singh Baniya, Sumi Malla",
+      "Plot": "Anti-regime partisan Chandra confronts physical, social and political obstacles for his father's funeral. His search for a solution takes him to neighboring mountain villages and encounters with the police and rebel guerrillas. A portrait of post-civil war Nepal during the fragile deadlocked peace process.",
+      "Language": "Nepali",
+      "Country": "Nepal, Netherlands, Qatar, USA, UK",
+      "Awards": "8 wins & 6 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOWI4YjM5MGYtYTc5ZC00Y2E3LWIxYWMtZDRjNzQ4ZDdhNzBmXkEyXkFqcGdeQXVyMjE5MjUxMzE@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.1/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "100%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "81/100"
+        }
+      ],
+      "Metascore": "81",
+      "imdbRating": "7.1",
+      "imdbVotes": "466",
+      "imdbID": "tt3638644",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "The Match Factory",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    
+    {
+      "id": 8,
+      "Title": "Dhanapati",
+      "Year": "2017",
+      "Rated": "N/A",
+      "Released": "N/A",
+      "Runtime": "N/A",
+      "Genre": "Comedy, Drama",
+      "Director": "Dependra K. Khanal",
+      "Writer": "Khagendra Lamichhane",
+      "Actors": "Khagendra Lamichhane, Surakshya Panta, Janak Bartaula, Kamal Devkota",
+      "Plot": "Dhanapati,a poor man suffering from high poverty is pulled towards politics after not able pay for his daughter school to earn lot of money he goes into politics to earn money.",
+      "Language": "Nepali",
+      "Country": "Nepal",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMWY5MzQ2NTgtNWVkMi00MWFhLWFjOWMtMjNiZjA2OTIwNjhkXkEyXkFqcGdeQXVyNzQ3NTY5MjE@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.8/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "8.8",
+      "imdbVotes": "35",
+      "imdbID": "tt6580708",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+];

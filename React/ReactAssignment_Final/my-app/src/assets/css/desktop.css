@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 40px;
+    width: 100%;
+    max-width: 1140px;
+}
+
+.clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.wrapper {    
+    width: 100%;    
+}
+
+.header {
+    text-align: left;    
+    padding: 16px 0 0 0; 
+    background:linear-gradient(-15deg,#23074d 0%, #cc5333 50%, #F56217 50%, #0B486B 100%);
+    animation-name: animate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    filter: hue-rotate(120deg);      
+}
+
+@keyframes animate {
+    0%   {filter: hue-rotate(0deg);}
+    
+    100% {filter: hue-rotate(360deg);}
+}
+
+.header-title h1{    
+    float: left;    
+    font-family: 'Russo One', sans-serif;    
+    color: lightgoldenrodyellow;
+    margin-top: 10px;
+}
+
+.header-quotes {
+    float: right;
+    font-family: 'Monoton', cursive;    
+    color: lightgoldenrodyellow;
+}
+.header-quotes p{
+    font-size: 24px;
+}
+
+.header-body {
+    background-color: beige;
+    
+}
+.intro-container {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px 0;
+}
+.header-login-user {
+    margin: 10px 0;
+    text-align: right;
+    
+}
+
+.header-login-user a {
+    text-decoration: none;
+}
+.header-login-user i {
+    margin-right: 5px;
+}
+
+.header-search-bar {
+    text-align: center;
+}
+
+.header-search-bar input[type=search] {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    border: none;
+    
+  }
+
+  .header-navbar {
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 20px auto 0 auto;    
+  }
+  
+  .header-navbar li {    
+    padding: 12px 12px 0 12px;    
+    list-style-type: none;
+    font-size: 24px;
+    display: inline-block;
+    font-weight: 600;   
+  }
+
+  .header-navbar a {
+    color: #406377;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .header-navbar li:hover, a:hover {
+    color: black;
+    background-color: white;    
+  }
+  
+  .active {
+    color: blue;
+  }
+
