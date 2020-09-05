@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "firstName": "Hello",
+    "lastName": "World",
+    "phoneNumbers": [
+      {
+        "number": 9812023456,
+        "type": "cell"
+      },
+      {
+        "number": 9876500118,
+        "type": "home"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "firstName": "Hello",
+    "lastName": "Coding"
+  },
+  {
+    "id": 3,
+    "firstName": "Nobody",
+    "lastName": "Nothing",
+    "phoneNumbers": []
+  },
+  {
+    "id": 4,
+    "firstName": "Raj",
+    "lastName": "Devi",
+    "phoneNumber": []
+  },
+  {
+    "id": 5,
+    "firstName": "Pujan",
+    "lastName": "Gharti Magar",
+    "phoneNumber": [
+      {
+        "number": 98012345678,
+        "type": "cell"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "firstName": "Aarti",
+    "lastName": "Magar",
+    "phoneNumber": []
+  },
+  {
+    "id": 7,
+    "firstName": "Hi",
+    "lastName": "Nothing",
+    "phoneNumbers": [
+      {
+        "number": 9876543210,
+        "type": "home"
+      }
+    ]
+  }
+]
