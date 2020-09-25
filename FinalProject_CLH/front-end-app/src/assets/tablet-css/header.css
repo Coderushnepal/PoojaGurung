@@ -1,0 +1,52 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 40px;
+    }
+  
+    .header-logo {
+        float: left;
+        margin: 15px 10px;
+    }
+
+    .header-quotes {
+        display: block;
+        color: white;
+        font-size: 18px;
+        font-family: 'Monoton', cursive; 
+        margin: 10px 10px;
+    }
+
+    .intro-container {
+        padding-top: 30px; 
+    }
+
+    .header-login-user {
+        margin-top: 20px;   
+        font-size: 18px;
+        text-align: right;    
+        
+    }
+    
+    .header-login-user p{   
+        font-size: 18px;
+    }
+    
+    .header-search-bar {
+        padding-top: 10px;
+    }
+
+    .header-search-bar input[type=search] {
+        padding: 10px;        
+        font-size: 18px;       
+        border-radius: 10px;
+        width: 75%;
+        border: 2px solid #282c34;    
+    }
+
+    .header-navbar li { 
+        font-size: 20px;
+        padding: 16px 16px 0 16px; 
+    }
+
+}

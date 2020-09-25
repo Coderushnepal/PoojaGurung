@@ -1,0 +1,153 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&display=swap'); */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #282c34;
+    z-index: 100;
+}
+
+.modal-main {
+    position: fixed;
+    background: white;
+    width: 90%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+
+.btn {
+    background-color: #282c34;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    overflow: visible;
+}
+.DescriptionModal {
+    padding: 30px;    
+}
+
+.DescriptionModal__left {
+    text-align: center;
+}
+
+.DescriptionModal__left__imgcontainer {
+    height: 200px;
+    width: 200px;
+    margin: 10px auto 0;
+    background-image: url(/static/media/12.7ecfe9e3.png);
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.DescriptionModal__left h1 {
+    color: #282c34;
+    font: normal bold 24px/1.5 'Ubuntu', sans-serif;
+}
+
+.hr {
+    margin: 5px 0;
+    height: 1px;
+    border: 0.3px solid #CCCCCC;
+}
+
+.DescriptionModal__right {
+    margin-top: 10px;
+}
+
+.rating-form {
+    margin: 5px 0;
+}
+
+.rating-form i{
+    padding: 2px 5px 0 0;
+}
+
+.comment-form {
+    padding: 5px 0;
+}
+.DescriptionModal__right .comment-form > textarea {
+    width: 100%;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 6px;
+    resize: none;
+    height: 70px;
+    margin: 10px 0;
+}
+
+.DescriptionModal__right .btn-secondary {
+    border: none;
+    outline: 0;
+    padding: 10px 30px;
+    color: white;
+    background-color:#282c34;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 18px;
+    margin-top: 10px;    
+}
+
+@media screen and (min-width: 526px) {
+    .DescriptionModal__left__imgcontainer {
+        height: 250px;        
+    }
+
+    .DescriptionModal__right {
+        margin: 20px auto 0;
+        width: 350px;
+    }
+
+    .DescriptionModal__right .btn-secondary {
+        padding: 10px 15px;
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .modal-main {
+        width: 70%;
+    }
+    .DescriptionModal__left {
+        float: left;        
+        margin: 0 10px;
+        width: 30%;
+    }
+
+    .DescriptionModal__left__imgcontainer {          
+        width: 150px;       
+    }
+   
+
+    .DescriptionModal__right {
+       float: right;
+       width: 60%;
+       margin: 50px 0 0;
+    }   
+
+}
+
+@media screen and (min-width: 992px) {
+    .DescriptionModal__left__imgcontainer {
+        height: 300px; 
+        width: 200px;              
+    }
+}

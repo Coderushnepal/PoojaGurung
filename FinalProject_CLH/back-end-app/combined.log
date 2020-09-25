@@ -1,0 +1,67 @@
+{"_original":{"userName":"","email":"gud&&12@domain.com","password":"sam@password"},"details":[{"message":"\"userName\" is not allowed to be empty","path":["userName"],"type":"string.empty","context":{"label":"userName","value":"","key":"userName"}}],"level":"error","message":"Entry Valid names {\n  \"email\": \"gud&&12@domain.com\",\n  \"password\": \"sam@password\",\n  \"userName\" \u001b[31m[1]\u001b[0m: \"\"\n}\n\u001b[31m\n[1] \"userName\" is not allowed to be empty\u001b[0m","stack":"ValidationError: {\n  \"email\": \"gud&&12@domain.com\",\n  \"password\": \"sam@password\",\n  \"userName\" \u001b[31m[1]\u001b[0m: \"\"\n}\n\u001b[31m\n[1] \"userName\" is not allowed to be empty\u001b[0m\n    at Object.exports.process (D:\\MovieTracker\\react-node-app\\node_modules\\joi\\lib\\errors.js:184:16)\n    at Object.internals.entry (D:\\MovieTracker\\react-node-app\\node_modules\\joi\\lib\\validator.js:150:26)\n    at Object.exports.entry (D:\\MovieTracker\\react-node-app\\node_modules\\joi\\lib\\validator.js:27:30)\n    at internals.Base.validate (D:\\MovieTracker\\react-node-app\\node_modules\\joi\\lib\\base.js:548:26)\n    at Object.internals.assert (D:\\MovieTracker\\react-node-app\\node_modules\\joi\\lib\\index.js:225:27)\n    at Object.assert (D:\\MovieTracker\\react-node-app\\node_modules\\joi\\lib\\index.js:102:19)\n    at validateUserCreation (D:\\MovieTracker\\react-node-app\\src\\schemas\\/User.js:12:9)\n    at Layer.handle [as handle_request] (D:\\MovieTracker\\react-node-app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\MovieTracker\\react-node-app\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\MovieTracker\\react-node-app\\node_modules\\express\\lib\\router\\route.js:112:3)"}
+{"_original":{"email":"gud&&12@domain.com","password":"sam@password"},"details":[{"message":"\"userName\" is required","path":["userName"],"type":"any.required","context":{"label":"userName","key":"userName"}}],"level":"error","message":"Entry Valid names {\n  \"email\": \"gud&&12@domain.com\",\n  \"password\": \"sam@password\",\n  \u001b[41m\"userName\"\u001b[0m\u001b[31m [1]: -- missing --\u001b[0m\n}\n\u001b[31m\n[1] \"userName\" is required\u001b[0m","stack":"ValidationError: {\n  \"email\": \"gud&&12@domain.com\",\n  \"password\": \"sam@password\",\n  \u001b[41m\"userName\"\u001b[0m\u001b[31m [1]: -- missing --\u001b[0m\n}\n\u001b[31m\n[1] \"userName\" is required\u001b[0m\n    at Object.exports.process (D:\\MovieTracker\\react-node-app\\node_modules\\joi\\lib\\errors.js:184:16)\n    at Object.internals.entry (D:\\MovieTracker\\react-node-app\\node_modules\\joi\\lib\\validator.js:150:26)\n    at Object.exports.entry (D:\\MovieTracker\\react-node-app\\node_modules\\joi\\lib\\validator.js:27:30)\n    at internals.Base.validate (D:\\MovieTracker\\react-node-app\\node_modules\\joi\\lib\\base.js:548:26)\n    at Object.internals.assert (D:\\MovieTracker\\react-node-app\\node_modules\\joi\\lib\\index.js:225:27)\n    at Object.assert (D:\\MovieTracker\\react-node-app\\node_modules\\joi\\lib\\index.js:102:19)\n    at validateUserCreation (D:\\MovieTracker\\react-node-app\\src\\schemas\\/User.js:12:9)\n    at Layer.handle [as handle_request] (D:\\MovieTracker\\react-node-app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\MovieTracker\\react-node-app\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (D:\\MovieTracker\\react-node-app\\node_modules\\express\\lib\\router\\route.js:112:3)"}
+{"message":"There is already an existing user with ths email","level":"error"}
+{"message":"There is already an existing user with ths email","level":"error"}
+{"message":"There is already an existing user with ths email","level":"error"}
+{"message":"There is already an existing user with ths username","level":"error"}
+{"message":"There is already an existing user with ths email","level":"error"}
+{"message":"There is already an existing user with ths Username","level":"error"}
+{"message":"There is already an existing user with ths Username","level":"error"}
+{"message":"There is already an existing user with ths email","level":"error"}
+{"message":"There is already an existing user with ths Username","level":"error"}
+{"message":"There is already an existing user with ths Username","level":"error"}
+{"message":"Invalid login credentials","level":"error"}
+{"message":"Invalid login credentials","level":"error"}
+{"message":"Invalid login credentials","level":"error"}
+{"message":"Invalid login credentials","level":"error"}
+{"message":"Getting list of favourite Movies for userId 1","level":"info"}
+{"message":"Getting list of favourite Movies for userId 1","level":"info"}
+{"message":"Getting list of favourite Movies for userId 1","level":"info"}
+{"message":"Getting list of favourite Movies for userId 1","level":"info"}
+{"message":"Getting list of favourite Movies for userId 1","level":"info"}
+{"message":"Getting list of favourite Movies for userId 1","level":"info"}
+{"message":"Getting list of favourite Movies for userId 1","level":"info"}
+{"message":"Getting list of favourite Movies for userId 1","level":"info"}
+{"message":"Invalid login credentials","level":"error"}
+{"message":"Getting list of favourite Movies for userId 3","level":"info"}
+{"message":"Getting list of favourite Movies for userId 1","level":"info"}
+{"message":"Getting list of favourite Movies for userId 3","level":"info"}
+{"message":"Getting list of favourite Movies for userId 3","level":"info"}
+{"message":"Getting list of favourite Movies for userId 1","level":"info"}
+{"message":"Getting list of favourite Movies for userId 1","level":"info"}
+{"message":"Getting list of favourite Movies for userId 1","level":"info"}
+{"message":"Getting list of favourite Movies for userId 1","level":"info"}
+{"message":"Getting list of favourite Movies for userId 3","level":"info"}
+{"message":"Getting list of favourite Movies for userId 3","level":"info"}
+{"message":"Getting list of favourite Movies for userId 3","level":"info"}
+{"message":"Getting list of favourite Movies for userId 3","level":"info"}
+{"message":"Getting list of favourite Movies for userId 3","level":"info"}
+{"message":"Getting list of favourite Movies for userId 3","level":"info"}
+{"message":"Getting list of favourite Movies for userId 3","level":"info"}
+{"message":"Getting list of favourite Movies for userId 3","level":"info"}
+{"message":"Getting list of favourite Movies for userId 3","level":"info"}
+{"message":"Getting list of favourite Movies for userId 3","level":"info"}
+{"message":"Getting list of favourite Movies for userId 3","level":"info"}
+{"message":"Getting list of favourite Movies for userId 3","level":"info"}
+{"message":"Getting list of favourite Movies for userId 3","level":"info"}
+{"message":"Getting list of favourite Movies for userId 3","level":"info"}
+{"message":"Getting list of favourite Movies for userId 3","level":"info"}
+{"message":"Getting list of favourite Movies for userId 3","level":"info"}
+{"message":"Getting list of favourite Movies for userId 3","level":"info"}
+{"message":"Getting list of favourite Movies for userId 3","level":"info"}
+{"message":"Getting list of favourite Movies for userId 1","level":"info"}
+{"message":"Getting list of favourite Movies for userId 4","level":"info"}
+{"message":"Getting list of favourite Movies for userId 4","level":"info"}
+{"message":"Getting list of favourite Movies for userId 4","level":"info"}
+{"message":"Getting list of favourite Movies for userId 1","level":"info"}
+{"message":"Getting list of favourite Movies for userId 4","level":"info"}
+{"message":"Getting list of favourite Movies for userId 4","level":"info"}
+{"message":"Getting list of favourite Movies for userId 4","level":"info"}
+{"message":"Invalid login credentials","level":"error"}
+{"message":"Invalid login credentials","level":"error"}
+{"message":"Invalid login credentials","level":"error"}
+{"message":"Invalid login credentials","level":"error"}
+{"message":"Invalid login credentials","level":"error"}
+{"message":"There is already an existing user with ths email","level":"error"}
+{"message":"There is already an existing user with ths email","level":"error"}
+{"message":"There is already an existing user with ths Username","level":"error"}
