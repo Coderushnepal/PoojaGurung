@@ -1,33 +1,34 @@
 @media screen and (min-width: 600px) {
-   
-    body {
-        font-family: 'Roboto', sans-serif;   
-        font-size: 16px; 
+    
+    .content-img {        
+        height: 564px;
     }
-    .wrapper-header {
-        height: 1100px;
-    }
-    .wrapper-container {
-        width:100%;
-        margin: 10px auto;
-        padding: 0 20px;
-        display: block;
+    
+    .header-wrapper,.header-content-wrapper {        
+        padding: 0 40px;        
         max-width: 768px;
     }
+    
     .header-hamburger-menu {
         display: none;
     }
+
+    .header-home-content {
+        padding: 50px 0 0 0;
+    }
+
     .header-logo {     
         width: 100%;       
     }
+
     .header-logo img {
         display: block;
         margin-left: auto;
-        margin-right: auto;
-        
+        margin-right: auto;        
         width: 206px;
         height: 73px;
     }
+
     .menu-dropdown {
         width:100%;
         display: block;        
@@ -84,191 +85,112 @@
     .menu-btn-right:hover {
         background-color:  #00B6F0;
         color: azure; 
+        transition: .5s;
     }
     .nav-dropdown-content  a:hover {
-        background-color: unset;
-        color: #00B6F0;
-    }
-    
-    
-
-    .wrapper-home img {
-        height: 600px;
-        position: absolute;
-    }
-    .wrapper-home-content {
-        width: 100%;
-        margin: 60px auto 0;
-        padding: 0 40px;
-        max-width: 768px;
-    }
-    .wrapper-home-content h1 {         
-        font-style: normal;
-        font-weight: 900;
-        font-size: 34px;
-        line-height: 36px;
-        text-align: center;
-        letter-spacing: 0.7px;
-        color: #112D57;
-        margin: 40px auto;
-        padding-top: 30px;
-    }
-    .wrapper-home-content p {
-        font-family: 'Roboto', sans-serif; 
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 20px;
-        text-align: center;
-        letter-spacing: 0.7px;
-        color: #5C5C5C;
-        margin: 20px auto;
-        padding: 10px 60px;
-    }
-    .home-btn {
-       height: 100px;
-             
-       width: 100%;
-       margin-left: auto;
-       margin-right: auto;
-       margin-top: 0;
-    }
-    
-    .home-btn .btn-left {
-        
-        background: #00B6F0;
-        color: white;
-        border-radius: 50px;    
-        border: 0;
-        padding: 7px 30px;
-        margin-left: 30px;
-        font-size: 16px;       
-    }
-
-    .home-btn .btn-right {
-                
-        background: #FFFFFF;
-        box-sizing: border-box;
-        color: black;
-        border-radius: 50px;    
-        border: 1px solid #00B6F0;        
-        padding: 7px 30px;
-        margin-left: 30px; 
-        margin-right: 20px;        
-        font-size: 16px;
-    }
-    .home-btn .btn-left:hover {
         background-color: white;
         color: #00B6F0;
-        border: 1px solid #00B6F0;
-    }
-    .home-btn .btn-right:hover {
-        background-color: #00B6F0;
-        color:  white;
-    }
-    
-    
+    }   
 
-    /* Just-Type....................*/
-
-
-    .container {
-        margin: 35px auto 20px;
-        padding: 0 20px;
-        max-width: 768px;
+    .header-home-content h1 {
+        font-weight: 900;
+        font-size: 38px;
+        line-height: 36px;        
+        letter-spacing: 0.5px;
     }
-    .wrapper-just-type {
-        margin: 0;
+
+    .header-home-content p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;       
+        letter-spacing: 0.2px;
     }
-    .wrapper-just-type span{        
+
+    .home-btn {  
+        margin: 40px auto 0;
+        padding: 80px 0 0 0;
+    }
+
+    .home-btn .home-btn-left {       
+        border-radius: 50px;      
+        padding: 7px 30px;        
+        font-size: 14px;       
+    }
+
+    .home-btn .home-btn-right {
+        border-radius: 50px;      
+        padding: 7px 30px;        
+        font-size: 14px;
+    }
+
+    .content-screen {        
+        /* top: 520px;  */
+        height: 580px;       
+    }
+   
+
+/*...........................................  JUST TYPE.............................................................*/
+   
+    .just-type-container span{
         font-size: 28px;
         line-height: 38px;
         letter-spacing: 0.2px;
     }
-    .wrapper-just-type h2 {
+
+    .just-type-container {
+        margin: 30px auto 20px;
+    }
+
+    .just-type-container h2 {
         margin-top: 15px;
         font-size: 35px;
         letter-spacing: 0.2px;
     }
-    .wrapper-just-type p {
+    .just-type-container p {
         margin-top: 15px;
         font-style: normal;
         font-size: 16px;
-        letter-spacing: 0.1px;
-        color: #5C5C5C;
-    }
-    .wrapper-just-type br {display: block;}
+        letter-spacing: 0.1px;        
+    }   
     
-    .just-type-btn  {   
-        height: 100px;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;   
-        margin-top: 0;
-       
-     }
-   
-     
-    .just-type-btn .btn-download-left {
-         font-family: 'Roboto', sans-serif; 
-         background: #00B6F0;
-         color: white;
-         border-radius: 50px;    
-         border: 0;
+    .just-type-btn .btn-download-left {        
          padding: 10px 45px;
-         margin-left: 10px;
-         margin-right: 10px;
-         font-size: 16px;   
-        
+         font-size: 16px;    
      }
      
     .just-type-btn .btn-walkthrough-right {
-         color:  #20262A;;
-         background-color: white;
-         border: 1px solid #00B6F0;
-         border-radius: 50px;
-         font-family: 'Roboto', sans-serif;
-         
-         padding: 10px 20px;
-             
-         margin-top: 30px;
-         margin-left: 20px;
-         margin-right: 20px;
-         font-style: normal;    
-         font-size: 16px;           
-     }
-     .just-type-btn .btn-download-left:hover {
-        background-color: white;
-        color:#00B6F0;
-        border: 1px solid #00B6F0;
-    }
-    .just-type-btn .btn-walkthrough-right:hover {
-        background-color: #00B6F0;
-        color: white;
-    }
-  
+        padding: 10px 20px;             
+        margin-top: 30px;        
+        font-style: normal;    
+        font-size: 16px; 
+    } 
+    
+    .just-type-container br {display: block;}
+      
+
+
+/*...........................................  OPEN-TYPE FEATURES.......................................................*/
+
     .opentype-content img {
         display: none;
     }
     .opentype-features {
-        height: 400px;
-        position: relative; 
+        padding-top: 50px;    
+        height: 450px;     
     }
-    .opentype-features img {
-        width: 100%;
-        height: 370px;
-        position: absolute;
+    
+    .blue-frame {     
+        height: 350px;
     }
     .opentype-container {
-        margin: 20px auto;
-        padding: 0 40px;
-        
+        margin: 20px auto;               
         width: 100%;
+        padding: 0 40px;       
     }
     .opentype-content {    
-       position: unset;
-       width: 45%;      
+        position: unset;
+        width: 45.75%; 
+        margin-right: unset;     
     }    
     .opentype-content h3 {
         text-align: left;    
@@ -280,98 +202,92 @@
         margin-top: 50px;
     }
     .opentype-content p {
-        margin-top: 17px;
+        margin-top: 30px;
         text-align: justify;
         font-size: 18px;
         line-height: 20px;
         letter-spacing: 0.2px;
     }
-    .opentype-content a {
-        text-decoration: none;
-        color: #00B6F0;
-        margin-top: 20px;
-        float: left;
+    .opentype-content .learn-more-open {        
         font-size: 18px;
         line-height: 20px;
         letter-spacing: 0.2px;
     }
-    .opentype-container a:hover {
-        color:  #112D57;
+    .opentype-content .learn-more-open:hover {
+        color:  #4076c5;
     }
 
     .opentype-img {
         display: block;        
-        position: unset;
-        width: 45%;
+        width: 42%;
     }
-    .opentype-img img {
-        width: 40%;
-        height: 206px;
-        margin-top: 30px;
+    .opentype-img img {        
+        height: 320px;  
+        width: 450px;      
+    }
+
+    /*...........................................  VARIABLE-FONTS FEATURES.......................................................*/
+    
+    .variable-fonts {
+        padding-top: 50px;
+        height: 450px;
+    }
+
+    .yellow-frame {
+        height: 350px;
+    }
+
+    .variable-fonts-container {        
+        padding: 0 40px;
     }
 
 
-    .variable-fonts-content img {
+    .variable-fonts-content .img {
         display: none;
     }
-    .variable-fonts {
-        height: 400px;
-        position: relative; 
+
+    .variable-fonts-img {
+        display: block;
+        width: 42%;
     }
-    .variable-fonts img {
-        width: 100%;
-        height: 350px;
+
+    .variable-fonts-img img {
+        height: 320px;  
+        width: 450px; 
+        max-width: 50%;
         position: absolute;
     }
-    .variable-fonts-container {
-        margin: 20px auto;
-        padding: 0 40px;        
-        width: 100%;
+
+    .variable-fonts-content {
+        position: unset;
+        width: 45.75%; 
+        margin-right: unset; 
+        padding-left: 30px;
     }
-    .variable-fonts-content {    
-       position: unset;
-       width: 45%;      
-    }    
+
     .variable-fonts-content h3 {
-        text-align: left;    
-        color: #20262A;
+        text-align: left;
         font-weight: 450;
         font-size: 24px;
         line-height: 38px;
         letter-spacing: 0.1px;
         margin-top: 50px;
     }
-    .variable-fonts-content p {
-        margin: 17px 0 0 0;
-        text-align: justify;
+    .variable-fonts-content p { 
+        margin-top: 30px;       
+        text-align: left;
         font-size: 18px;
         line-height: 20px;
         letter-spacing: 0.2px;
     }
-    .variable-fonts-content a {
-        text-decoration: none;
-        color: #00B6F0;
-        margin-top: 17px;
+    .variable-fonts-content .learn-more-variable {         
         float: left;
         font-size: 18px;
         line-height: 20px;
         letter-spacing: 0.2px;
     }
-    .variable-fonts-content a:hover {
-        color: #20262A;
-    }
 
-    .variable-fonts-img {
-        display: block;        
-        position: unset;
-        width: 45%;
-    }
-    .variable-fonts-img img {
-        width: 40%;
-        height: 206px;
-        margin-top: 30px;
-    }
-
+/*.....................................................RETHINK.......................................................*/
     .rethink {
         margin: 60px 0 20px 0;
         height: 250px;
@@ -398,105 +314,92 @@
         font-size: 450;
     }
     
-      .progress-text{
+    .progress-text{
         width: 90%; 
         margin: 0 auto;
-      }
-      .progress-text span {
+    }
+
+    .progress-text span {
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
         line-height: 14px;    
         color: #505D6F;
-      }
-      .progress-btn {
+    }
+
+    .progress-btn {
          margin: 65px auto 20px auto;
          width: 100%;
          text-align: center;
-      }
+    }
     
-      .progress-btn .btn-primary{
-       
-        font-style: normal;
-        font-weight: bold;
+    .progress-btn .btn-primary {        
         font-size: 18px;
         line-height: 20px;
-        letter-spacing: 0.1px;
-        color: #FFFFFF;
-        background: #00B6F0;
-        border-radius: 50px;
-        border: 0;
+        letter-spacing: 0.1px;        
         padding: 10px 20px;
     }
-    .progress-btn .btn-primary:hover {
-        background-color: white;
-        color: #00B6F0;
-        border: 1px solid #00B6F0;
-    }
 
+/*........................................TESTIMONIALS.......................................................*/
 
     .testimonals {
         padding-top: 60px; 
         height: 620px;      
-      }
-      .testimonal-bg-image {      
+    }
+    .testimonal-bg-image {      
         position: relative; 
-        height: 500px;
-        
-      }
-      .testimonal-bg-image img {
+        height: 500px;        
+    }
+
+    .testimonal-bg-image img {
         position: absolute;
         width: 100%;
         height: 500px;
-      }
-      .testimonals-container {
-          margin: 60px auto;
-          padding: 0 40px;
-          align-items: center;
-      }
-      .testimonals-container h3 {
-        text-align: center;    
-        color: #20262A;
+    }
+    .testimonals-container {
+        margin: 60px auto;
+        padding: 0 40px;
+        align-items: center;
+    }
+    .testimonals-container h3 {        
         font-weight: 450;
-        font-size: 24px;
+        font-size: 28px;
         line-height: 38px;
         letter-spacing: 0.1px;
-      }
-      .testimonals-container img {
+    }
+    .testimonals-container img {
         position:absolute;
         top: 20%;
         left: 50%;
         transform:translate(-50%,-50%); 
-          width: 80px;
-          height: 60px;
-      }
-      .testimonals-container p {
-          margin: 130px 40px 10px 40px;
-          font-style: normal;
-            font-weight: 450;
-            font-size: 18px;
-            line-height: 25px;   
-            text-align: center;
-            letter-spacing: 0.2px;    
-            color: #5C5C5C;
-    
-      }
-      .testimonials-clients {    
+        width: 80px;
+        height: 60px;
+    }
+    .testimonals-container p {
+        margin: 130px 40px 10px 40px;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 18px;
+        line-height: 25px;   
+        text-align: center;
+        letter-spacing: 0.2px;   
+    }
+    .testimonials-clients {    
         width: 50%;
         height: 50px;
         margin: 30px auto;
         position: relative;
-      }
-      .testimonials-clients img {
-          float: left;
-          height: 30px;
-          width: 30px;
-          position: absolute;
-          top: 45%;
-          left: 37%;
-          margin-right: 7px;
-      }
-      .testimonials-clients span {
+    }
+    .testimonials-clients img {
+        float: left;
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        top: 45%;
+        left: 37%;
+        margin-right: 7px;
+    }
+    .testimonials-clients span {
         float: left;
         height: 30px;
         width: 80px;
@@ -507,145 +410,129 @@
     }
     .testimonials-btn {
         margin: 50px auto 20px auto;
-        width: 100%;    
-        text-align: center;
+        
     }
-    
-    .testimonials-btn .btn-secondary {
-        font-style: normal;
-        font-weight: bold;
+
+    .testimonials-btn .btn-secondary {        
         font-size: 18px;
         line-height: 20px;
-        letter-spacing: 0.1px;
-        color: #FFFFFF;
-        background: #00B6F0;
-        border-radius: 50px;
-        border: 0;
+        letter-spacing: 0.1px;        
         padding: 7px 20px;
-      }
-      .testimonials-btn .btn-secondary:hover {
-          background-color: white;
-          color: #00B6F0;
-          border: 1px solid #00B6F0; 
-      }
+    }
+
+/*...................................................PRICING.......................................................*/
+
+.pricing {
+    background-color: #182333;
+    height: 600px;
+}
+.pricing-container {
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.pricing-content {
+    padding-top: 40px; 
+    text-align: center;
+}
+.pricing-content span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 35px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+}
+.pricing-content p {
+    color: #FFFFFF;
+    text-align: center;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-top: 40px;
+}
+
+.pricing-info {
+   text-align: center;
+   margin-top: 30px;
+   color: white;
+}
+.pricing-info .here {
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: white;
+}
+.pricing-amounts {
+    width: 50%;
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+}
+.pricing-amounts .amount {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #F3CD03;
+    float: left;        
+      position: absolute;
+      top: 30%;
+      left: 30%;
+      
+}
+
+.pricing-amounts .amount-info {
+    float: left;
+    height: 40px;
+    width: 70px;    
+    position: absolute;
+    top: 30%;
+    left: 45%;   
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 24px;   
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.pricing-info .para {
+    margin-top: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 36px;
+}
+.pricing-btn {
+    margin: 72px auto 20px auto;
+    width: 100%;
+    text-align: center;
+ }
+
+ .pricing-btn .btn-primary{
    
-    .pricing {
-        background-color: #182333;
-        height: 600px;
-    }
-    .pricing-container {
-        margin: 0 auto;
-        padding: 0 40px;
-    }
-    .pricing-content {
-        padding-top: 40px; 
-        text-align: center;
-    }
-    .pricing-content span {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 38px;
-        line-height: 35px;
-        letter-spacing: 0.2px;
-        color: #FFFFFF;
-    
-    }
-    .pricing-content p {
-        color: #FFFFFF;
-        text-align: center;
-        font-style: normal;
-        font-weight: lighter;
-        font-size: 20px;
-        line-height: 36px;
-        letter-spacing: 0.1px;
-        margin-top: 40px;
-    }
-    
-    .pricing-info {
-       text-align: center;
-       margin-top: 30px;
-       color: white;
-    }
-    .pricing-info .here {
-        font-style: normal;
-        font-weight: 450;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.1px;
-        color: white;
-    }
-    .pricing-amounts {
-        width: 50%;
-        height: 60px;
-        margin: 0 auto;
-        position: relative;
-        padding: 0;
-    }
-    .pricing-amounts .amount {
-        font-style: normal;
-        font-weight: 900;
-        font-size: 40px;
-        line-height: 50px;
-        letter-spacing: 0.2px;
-        color: #F3CD03;
-        float: left;        
-          position: absolute;
-          top: 30%;
-          left: 30%;
-          
-    }
-    
-    .pricing-amounts .amount-info {
-        float: left;
-        height: 40px;
-        width: 70px;    
-        position: absolute;
-        top: 30%;
-        left: 45%;   
-        font-style: normal;
-        font-weight: 450;
-        font-size: 14px;
-        line-height: 24px;   
-        letter-spacing: 0.2px;
-        color: #FFFFFF;
-    }
-    .pricing-info .para {
-        margin-top: 40px;
-        color: #FFFFFF;
-        text-align: center;
-        font-style: normal;
-        font-weight: lighter;
-        font-size: 20px;
-        line-height: 36px;
-    }
-    .pricing-btn {
-        margin: 72px auto 20px auto;
-        width: 100%;
-        text-align: center;
-     }
-    
-     .pricing-btn .btn-primary{
-       
-       font-style: normal;
-       font-weight: bold;
-       font-size: 18px;
-       line-height: 20px;
-       letter-spacing: 0.1px;
-       color: #FFFFFF;
-       background: #00B6F0;
-       border-radius: 50px;
-       border: 0;
-       padding: 10px 20px;
-    }
-    .pricing-btn .btn-primary:hover {
-        background-color: white;
-        color: #00B6F0;
-        border: 1px solid #00B6F0;
-    }
-    .ergonomic {
-        height: 400px;
-        background: linear-gradient(180deg, #E9FAFF 0%, rgba(233, 250, 255, 0) 100%);
-    }
+   font-style: normal;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 20px;
+   letter-spacing: 0.1px;
+   color: #FFFFFF;
+   background: #00B6F0;
+   border-radius: 50px;
+   border: 0;
+   padding: 10px 20px;
+}
+/*...................................................ERGONOMICS.......................................................*/
+
+
     .ergonomic-container {
         margin: 0 auto;
         padding: 0 40px;
@@ -701,7 +588,7 @@
     .ergonomic-btn {
         margin: 50px auto 20px auto;
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
     .ergonomic-btn .btn-primary {
         font-size: normal;
@@ -713,8 +600,11 @@
     .ergonomic-btn .btn-primary:hover {
         background-color: white;
         color: #00B6F0;
-       border: 1px solid #00B6F0;
+        border: 1px solid #00B6F0;
     }
+
+    /*......................FOOTER...............................................................*/
+
     .footer-social-dropdown a:hover {
         opacity: 0.5;
     }
@@ -728,18 +618,5 @@
         height: 30px;
         width: 30px;
     }
-    
-     
-    
-
-    
-    
-    
-   
-     
-    
-    
-    
-
-
 }
+
