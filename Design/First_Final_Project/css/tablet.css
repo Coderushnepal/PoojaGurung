@@ -212,10 +212,7 @@
         font-size: 18px;
         line-height: 20px;
         letter-spacing: 0.2px;
-    }
-    .opentype-content .learn-more-open:hover {
-        color:  #4076c5;
-    }
+    }    
 
     .opentype-img {
         display: block;        
